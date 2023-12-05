@@ -5,7 +5,7 @@ body {
 #wrapper {
     display: grid;
     grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
-    grid-template-rows: 25% 10% 45% 90% 50% 15%;
+    grid-template-rows: 25% 10% 45% 55% 60% 15%;
     height: 100vh;
     background-color: #f39c12;
     grid-template-areas:
@@ -46,7 +46,13 @@ section {
 
 main {
     grid-area: ma;
-    background-color: #f39c12;
+    background-color: bisque;
+    border: 1px solid #f39c12;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    gap: 5px;
+    flex-direction: row;
 }
 
 aside {
@@ -78,19 +84,19 @@ h1 {
 }
 
 .tips {
-    border: 1px solid black;
+    border: 1px solid #f39c12;
     flex-grow: 1;
     text-align: center;
 }
 
 .kurs {
-    border: 1px solid black;
+    border: 1px solid #f39c12;
     flex-grow: 1;
     text-align: center;
 }
 
 .nyheten {
-    border: 1px solid black;
+    border: 1px solid #f39c12;
     flex-grow: 1;
     text-align: center;
 }
@@ -117,19 +123,10 @@ h2 {
 }
 
 h3 {
-    display: flex;
     margin: 0;
     font-size: 20px;
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-main {
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    gap: 5px;
-    flex-direction: column;
 }
 
 img {
@@ -143,11 +140,15 @@ img {
 
 iframe {
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 51.5vh;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
-.snabbfakta {
-    text-align: center;
-    margin: 5px;
+.väFF {
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 30%;
 }
