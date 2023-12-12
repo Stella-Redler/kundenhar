@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color:rgb(223, 199, 168);;
 }
 
 #wrapper {
@@ -55,13 +56,17 @@ main {
 
 aside {
     grid-area: as;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     border: 1px solid #f39c12;
 }
 
 footer {
     grid-area: ft;
     background-color: rgb(223, 199, 168);
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top: 0;
 }
 
 .undertitel {
@@ -151,4 +156,20 @@ iframe {
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 30%;
+}
+
+.ftlogga {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.ftloggaunder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    color: #f39c12;
+}
+
+.ftlänk {
+    font-size: 20px;
 }
