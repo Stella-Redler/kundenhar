@@ -6,7 +6,7 @@ body {
 #wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 250% 110% 15%;
+    grid-template-rows: 20% 250% 90% 10%;
     height: 100vh;
     grid-template-areas: 
     'hd'
@@ -28,7 +28,6 @@ header {
 section {
     grid-area: sc;
     border: 1px solid black;
-    margin: 5px;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
@@ -39,7 +38,6 @@ main {
     grid-area: mn;
     border: 1px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 10px;
 }
 
 h1 {
@@ -65,8 +63,12 @@ h2 {
 footer {
     grid-area: ft;
     background-color: rgb(223, 199, 168);
-    border: 1px solid black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 0;
+    border: 1px  solid #f39c12;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -83,6 +85,20 @@ footer {
 }
 
 img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a:hover{
+    color: rgb(36, 105, 234);
 }
