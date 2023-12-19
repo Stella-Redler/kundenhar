@@ -6,10 +6,11 @@ body {
 #wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 250% 90% 10%;
+    grid-template-rows: 20% 6% 250% 90% 10%;
     height: 100vh;
     grid-template-areas: 
     'hd'
+    'nv'
     'sc'
     'mn'
     'ft'
@@ -37,12 +38,12 @@ section {
 main {
     grid-area: mn;
     border-right: 1px solid #f39c12;
-    border-left: 1px solid #f39c12ui;
+    border-left: 1px solid #f39c12;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 5px;
     margin-top: 20px;
     text-align: center;
@@ -102,4 +103,14 @@ a {
 
 a:hover{
     color: rgb(36, 105, 234);
+}
+
+nav {
+    grid-area: nv;
+    background-color: antiquewhite;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }

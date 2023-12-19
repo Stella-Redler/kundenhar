@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:rgb(223, 199, 168);
+    background-color:#dfc7a8;
 }
 
 #wrapper {
@@ -14,14 +14,14 @@ body {
     'nv nv nv'
     'sc1 sc1 sc1'
     'ma ma ma'
-    'sc2 sc2 as'
+    'sc2 sc2 sc2'
     'ft ft ft'
     ;
 }
 
 header {
     grid-area: hd;
-    background-color:antiquewhite;
+    background-color:#faebd7;
     display: flex;
     justify-content: center;
     align-items: center;
