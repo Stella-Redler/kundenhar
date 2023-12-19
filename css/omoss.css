@@ -27,7 +27,7 @@ header {
 
 section {
     grid-area: sc;
-    border: 1px solid black;
+    border: 1px solid #f39c12;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
@@ -36,7 +36,8 @@ section {
 
 main {
     grid-area: mn;
-    border: 1px solid black;
+    border-right: 1px solid #f39c12;
+    border-left: 1px solid #f39c12ui;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
